@@ -25,9 +25,9 @@ F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
 *This linear model does predict mpg of MechaCars effectively. With an r-squared value of .71, the model should be right a little less than 3 out of 4 times.  
 ## Summary Statistics on Suspension Coils
 **Total Summary**  
-![]()  
+![](https://github.com/ChrisJAnderson/mechaCarStatisticalAnalysis/blob/main/Resources/TotalSummary.png)  
 **Lot Summary**  
-![]()  
+![](https://github.com/ChrisJAnderson/mechaCarStatisticalAnalysis/blob/main/Resources/LotSummary.png)  
 We can see from the total summary that our variance is well within the 100 PSI variance of MechaCar, and from the mean and median we can tell the data is well distributed, not skewed to one side or another. Our SD is relatively small, so production is fairly consistent overall, with most vehicles being close to "average". Our total lot summary does meet MechaCar's design specifications.
 However, our lot summary shows that lot 3 has poor quality compared to lots 1 and 2. Not only is it over MechaCar's tolerance for PSI variance, but its standard deviation is quite large by comparison to the other two lots. Investigating and correcting lot 3's operations will make our already acceptable overall summary more consistent than it already is.
 Lot 1 and 2 meet MechaCar's design specifications, but Lot 3 does not- the variance of 170 is too high for MechaCar's standards.
